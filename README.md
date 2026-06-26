@@ -88,7 +88,9 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js'
 
 const dracoLoader = new DRACOLoader()
-dracoLoader.setDecoderPath('https://www.gstatic.com/draco/v1/decoders/')
+// 推荐：将解码器文件复制到项目 public 目录（避免依赖外部 CDN）
+// cp node_modules/three/examples/jsm/libs/draco public/draco -r
+dracoLoader.setDecoderPath('/draco/')
 
 const loader = new GLTFLoader()
 loader.setDRACOLoader(dracoLoader)
@@ -111,9 +113,12 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js'
 import { KTX2Loader } from 'three/addons/loaders/KTX2Loader.js'
 
+// renderer 是你的 THREE.WebGLRenderer 实例
 const ktx2Loader = new KTX2Loader()
-ktx2Loader.setTranscoderPath('https://cdn.jsdelivr.net/npm/three/examples/jsm/libs/basis/')
-ktx2Loader.detectSupport(renderer)
+// 推荐：将转码器复制到项目 public 目录（避免依赖外部 CDN）
+// cp node_modules/three/examples/jsm/libs/basis public/basis -r
+ktx2Loader.setTranscoderPath('/basis/')
+ktx2Loader.detectSupport(renderer) // 检测当前 GPU 支持的 KTX2 子格式
 
 const loader = new GLTFLoader()
 loader.setMeshoptDecoder(MeshoptDecoder)
