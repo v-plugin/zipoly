@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/v-plugin/zipoly/releases/latest"><img src="https://img.shields.io/github/v/release/v-plugin/zipoly?color=6366f1&label=版本" alt="版本"/></a>
+  <a href="https://github.com/v-plugin/zipoly/releases/latest"><img src="https://img.shields.io/github/v/release/v-plugin/zipoly?color=6366f1&label=版本&include_prereleases" alt="版本"/></a>
   <img src="https://img.shields.io/badge/平台-Windows%2010%2F11-blue" alt="平台"/>
   <img src="https://img.shields.io/badge/授权-商业软件-orange" alt="授权"/>
   <img src="https://img.shields.io/badge/技术栈-Tauri%202%20%2B%20Rust-24c8db" alt="Tauri"/>
@@ -333,6 +333,6 @@ Draco 不支持对已压缩文件再次压缩。请使用从建模软件（Blend
 ---
 
 <p align="center">
-  <sub>由 <a href="https://github.com/v-plugin">RayChart</a> 用 ❤️ 打造</sub><br>
+  <sub>由 <a href="https://github.com/v-plugin">v-plugin</a> 用 ❤️ 打造</sub><br>
   <sub>© 2024–2026 v-plugin. 保留所有权利。</sub>
 </p>
