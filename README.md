@@ -5,19 +5,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/raychart/zipoly/releases/latest"><img src="https://img.shields.io/github/v/release/raychart/zipoly?color=6366f1&label=最新版本" alt="版本"/></a>
+  <a href="https://github.com/v-plugin/zipoly/releases/latest"><img src="https://img.shields.io/github/v/release/v-plugin/zipoly?color=6366f1&label=版本" alt="版本"/></a>
   <img src="https://img.shields.io/badge/平台-Windows%2010%2F11-blue" alt="平台"/>
   <img src="https://img.shields.io/badge/授权-商业软件-orange" alt="授权"/>
   <img src="https://img.shields.io/badge/技术栈-Tauri%202%20%2B%20Rust-24c8db" alt="Tauri"/>
-  <img src="https://img.shields.io/github/downloads/raychart/zipoly/total?color=success&label=下载量" alt="下载量"/>
+  <a href="https://zipoly.netlify.app"><img src="https://img.shields.io/badge/文档-zipoly.netlify.app-6366f1" alt="文档"/></a>
+  <img src="https://img.shields.io/github/downloads/v-plugin/zipoly/total?color=success&label=下载量" alt="下载量"/>
 </p>
 
 <p align="center">
   <b>Draco + Meshopt 双引擎 · KTX2 GPU 纹理 · 体检诊断 · 批量处理 · 完全离线</b>
-</p>
-
-<p align="center">
-  <a href="README_ZH.md">🇨🇳 简体中文</a> · <a href="README_EN.md">🇺🇸 English</a>
 </p>
 
 ---
@@ -40,7 +37,7 @@
 ## 📥 立即下载
 
 <p align="center">
-  <a href="https://github.com/raychart/zipoly/releases/latest">
+  <a href="https://github.com/v-plugin/zipoly/releases/latest">
     <img src="https://img.shields.io/badge/下载-Zipoly%20v2.0.1-6366f1?style=for-the-badge&logo=windows" alt="下载 Zipoly"/>
   </a>
 </p>
@@ -297,8 +294,8 @@ Draco 不支持对已压缩文件再次压缩。请使用从建模软件（Blend
 
 - 📖 [在线文档](https://zipoly.netlify.app) — 完整使用手册
 - 🌐 [Web 在线版](https://zipoly-web.netlify.app) — 免费，无需安装
-- 📦 [下载页面](https://github.com/raychart/zipoly/releases) — 历史版本下载
-- 🐛 [问题反馈](https://github.com/raychart/zipoly/issues) — 提交 Bug 或建议
+- 📦 [下载页面](https://github.com/v-plugin/zipoly/releases) — 历史版本下载
+- 🐛 [问题反馈](https://github.com/v-plugin/zipoly/issues) — 提交 Bug 或建议
 - 💬 微信公众号：**RayChart** — 购买授权与技术支持
 
 ---
@@ -330,12 +327,12 @@ Draco 不支持对已压缩文件再次压缩。请使用从建模软件（Blend
 
 本项目为闭源商业软件。如需报告问题或建议功能，请通过以下方式联系：
 
-- 提交 [GitHub Issue](https://github.com/raychart/zipoly/issues)
+- 提交 [GitHub Issue](https://github.com/v-plugin/zipoly/issues)
 - 关注微信公众号 **RayChart** 留言
 
 ---
 
 <p align="center">
-  <sub>由 <a href="https://github.com/raychart">RayChart</a> 用 ❤️ 打造</sub><br>
-  <sub>© 2024–2026 RayChart. 保留所有权利。</sub>
+  <sub>由 <a href="https://github.com/v-plugin">RayChart</a> 用 ❤️ 打造</sub><br>
+  <sub>© 2024–2026 v-plugin. 保留所有权利。</sub>
 </p>
