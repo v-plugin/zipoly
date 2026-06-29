@@ -1,16 +1,18 @@
 # Zipoly — Web3D 模型体积优化工作台
 
 <p align="center">
+  <a href="README.md">🇨🇳 简体中文</a> · <a href="README_EN.md">🇺🇸 English</a>
+</p>
+
+<p align="center">
   <a href="https://zipoly.netlify.app"><img src="https://zipoly.netlify.app/screenshot-overview.webp" alt="Zipoly 截图" width="720"/></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/v-plugin/zipoly/releases/latest"><img src="https://img.shields.io/github/v/release/v-plugin/zipoly?color=6366f1&label=版本&include_prereleases" alt="版本"/></a>
   <img src="https://img.shields.io/badge/平台-Windows%2010%2F11-blue" alt="平台"/>
   <img src="https://img.shields.io/badge/授权-商业软件-orange" alt="授权"/>
   <img src="https://img.shields.io/badge/技术栈-Tauri%202%20%2B%20Rust-24c8db" alt="Tauri"/>
   <a href="https://zipoly.netlify.app"><img src="https://img.shields.io/badge/文档-zipoly.netlify.app-6366f1" alt="文档"/></a>
-  <img src="https://img.shields.io/github/downloads/v-plugin/zipoly/total?color=success&label=下载量" alt="下载量"/>
 </p>
 
 <p align="center">
@@ -58,7 +60,7 @@
 | **3D 查看器** | Three.js 实时预览，24 小时光照模拟，截图与录制 | **永久免费** |
 | **操作日志** | 历史记录，参数复用，导出报告 | **永久免费** |
 | **体检诊断** | 导入自动扫描，检出模型潜在问题 | 试用期内可用 |
- 
+
 ---
 
 ## ⚡ 压缩引擎对比
